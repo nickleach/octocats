@@ -4,23 +4,21 @@
 	border: 2px solid #CFCFCF;
 	margin: 10 px;
 	border-radius: 5px;
-	;
+	margin-bottom: -5px
 }
 .image-footer{
 	color: silver;
 	font-weight: 900;
 	font-family: sans-serif;
-	padding-top: 10px;
-	padding-right: 50px
-	;
+	padding-right: 50px;
+	padding-top: 15px;
 	height: 35px;
-	border-bottom: 2px solid #CFCFCF
+	border-bottom: 2px solid #CFCFCF;
 }
 .authors img{
 	width: 25px;
 	border: none;
-	float: left;
-	margin-right: 60;
+	
 }
 
 .octocat{
@@ -37,7 +35,7 @@ float: right;
 	float: right;
 	position: relative;
 	font-weight: 900;
-	margin-right: -45px;
+	margin-right: -65px
 }
 
 .image-number::before{
@@ -45,4 +43,21 @@ content: "#"
 }
 .authors{
 	float: right;
+	margin-top: -5px;
+	margin-right: 20px;
+	margin-left: -70px;
+}
+.image-caption:before{
+	content: " ";
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 7px 6px 0 6px;
+border-color: #cfcfcf transparent transparent transparent;
+float: right;
+margin-top: -15px;
+margin-right: 25px;
+}
+ul .author{
+	padding-left: 0px;
 }
